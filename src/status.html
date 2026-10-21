@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Status</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Navigation bar(will be used for all pages)-->
+        <nav>
+            <header class="navbar">
+            <h1 class="logo">ByteBite</h1>
+                <ul class="nav_list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="status.html">Status</a></li>
+                    <li><a href="history.html">Order History</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+
+            <div class="navright">
+                <form>
+                    <input type="text" placeholder="Search menu..." class="searchbar">
+                </form>
+                
+            </div>
+            </header>
+        </nav>
+
+            <div class="box">
+                <div class="title_section">
+                    <h1 class="title">Order Status</h1>
+                </div>
+
+        
+                <div class="status_container">
+
+                    <div class="left_box">
+
+                        <table class="status_table">
+                            <tr>
+                                <td><strong>Order Placed at:</strong></td>
+                                <td class="right_side_value">12:45 PM</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>Status:</strong></td>
+                                <td class="right_side_value">Preparing</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>Estimated Waiting Time:</strong></td>
+                                <td class="right_side_value">10 Min</td>
+                            </tr>
+                        </table>
+
+                        <div class="gif_container">
+                            <img  class="cooking_img" src="cooking.gif" alt="a gif of a cat cooking food">
+                        </div>
+
+                        <div class="row_of_buttons">
+                            <a href="menu.html" class="status_button">
+                                <button>Cancel Order</button>
+                            </a>
+
+                            <a href="menu.html" class="status_button">
+                                <button>Back to Menu</button>
+                            </a>
+                        </div>
+                    </div> 
+                
+
+
+                <!--BOX ON THE RIGHT OF SCREEN-->
+                <div class="right_box">
+
+                        <h2 class="stall_name">Western Food</h2>
+                        <p class="date_of_order">November 6,2025</p>
+                        <br>
+
+
+                        <table class="order_summary_table">
+                            <tr class="header_row">
+                                <th>Qty</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Mexican Chicken</td>
+                                <td>$7.25</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Beef Taco</td>
+                                <td>$6.25</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Hawaiian Chicken</td>
+                                <td>$7.25</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>French Fries</td>
+                                <td>$4.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Chicken Nuggets</td>
+                                <td>$3.50</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Chicken Cutlet</td>
+                                <td>$5.50</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <p class="subtotal"><strong>Subtotal: </strong>$28.25</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ByteBite Menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--Navigation bar(will be used for all pages except login)-->
+        <nav>
+            <header class="navbar">
+                <h1 class="logo">ByteBite</h1>
+                    <ul class="nav_list">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="status.html">Status</a></li>
+                        <li><a href="history.html">Order History</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+
+                <div class="navright">
+                    <form>
+                        <input type="text" placeholder="Search menu..." class="searchbar">
+                    </form>
+                    
+                </div>
+            </header>
+        </nav>
+
+        
+
+        <br>
+        <br>
+
+        <div class="menu_container">
+
+            <div class="filter_box">
+                <h2 class="filter_title"><b>Filters</b></h2>
+
+                <label><input type="checkbox"> Halal</label>
+                <label><input type="checkbox"> Veg</label>
+                <label><input type="checkbox"> Non-Veg</label>
+                <label><input type="checkbox"> Chinese</label>
+                <label><input type="checkbox"> Japanese</label>
+                <label><input type="checkbox"> Western</label>
+            </div>
+
+
+            <!--Menu items grid maxtrix-->
+            <div class="menu_grid">
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">
+                    <h3 class="item_name"><b>Mexican Chicken</b></h3>
+                    <p class="item_description">Crispy chicken with brown sauce.</p>
+                    <p class="stall_label">From Western Food Stall</p>
+                    <p class="price">$7.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>
+                </div>
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">  
+                    <h3 class="item_name"><b>Chicken Rice</b></h3>
+                    <p class="item_description">Steamed chicken with fragrant rice.</p>
+                    <p class="stall_label">From Chicken Rice Stall</p>
+                    <p class="price">$4.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>
+                </div>
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">  
+                    <h3 class="item_name"><b>Nasi Padang</b></h3>
+                    <p class="item_description">Spiced rice with tender chicken.</p>
+                    <p class="stall_label">From Nasi Padang Stall</p>
+                    <p class="price">$7.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>
+                </div>
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">
+                    <h3 class="item_name"><b>Beef Gyudon</b></h3>
+                    <p class="item_description">Sliced beef in sweet broth.</p>
+                    <p class="stall_label">From Japanese Cuisine Stall</p>
+                    <p class="price">$7.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>   
+                </div>
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">
+                    <h3 class="item_name"><b>Chicken Cutlet</b></h3>
+                    <p class="item_description">Crispy cutlet with lemon garnish.</p>
+                    <p class="stall_label">From Western Food Stall</p>
+                    <p class="price">$7.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>
+                </div>
+
+                <div class="menu_card">
+                    <img src="item.jpg" class="item_image">
+                    <h3 class="item_name"><b>Beef Taco</b></h3>
+                    <p class="item_description">Seasoned beef in soft tortilla.</p>
+                    <p class="stall_label">From Western Food Stall</p>
+                    <p class="price">$7.25</p>
+                    <a href="status.html">
+                        <button class="buy_now_button">Buy Now</button>
+                    </a>
+                </div>
+
+
+            </div>  <!--closes div for menu grid-->
+
+        </div> <!--closes div for menu container-->
+
+    </body>
+</html>
